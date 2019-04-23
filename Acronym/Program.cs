@@ -6,7 +6,10 @@ namespace Acronym
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter a Text");
+            Acronym acronym = new Acronym();
+            acronym.TextToAcr();
+            Console.ReadLine();
         }
     }
 }
